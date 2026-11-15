@@ -2,15 +2,11 @@
 
 # Project Title
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+* **One Sentence Summary** This repository holds an attempt to predict whether a hotel booking will be cancelled, using the data from the [Reservation Cancellation](https://www.kaggle.com/competitions/playground-series-s3e7/data?select=train.csv) Kaggle challenge.
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+The task, as defined by the Kaggle challenge, is to use 17 features describing a hotel booking (party size, length of stay, lead time, room and meal type, market segment, price, special requests, arrival date, and the guest's booking history) to predict the probability that the booking is canceled. The training set has 42,100 bookings, 39.2% of which were canceled, and the test set has 28,068 bookings without labels. Submissions are scored on ROC curve between predicted probability and the observed target. the approach in this repository formulates the problem as binary classification.
 
 ## Summary of Workdone
 
