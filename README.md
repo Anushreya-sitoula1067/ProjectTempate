@@ -2,8 +2,9 @@
 
 # Project Title
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+Predicting Hotel Reservation Cancellations
+
+This repository holds an attempt to predict whether a hotel booking will be canceled, using the data from the [Reservation Cancellation](https://www.kaggle.com/competitions/playground-series-s3e7/overview) Kaggle challenge.
 
 ## Overview
 
